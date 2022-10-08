@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Photo App</title>
+  </head>
+  <body>
+    <h1>DogPhotoApp</h1>
+    <main>
+      <section>
+        <h2>Dog Photos</h2>
+        <p>Click here to view more <a href="https://www.pexels.com/search/dog//" target="_blank">Dog photos</a>.</p>
+        <a href="https://www.pexels.com/search/dog//" target="_blank"><img src="https://images.pexels.com/photos/2253275/pexels-photo-2253275.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A photo of a very nice and beautiful dog."></a>
+      </section>
+      <section>
+        <h2>About dogs</h2>
+        <h3>Things dogs love:</h3>
+        <ul>
+          <li>watching TV</li>
+          <li>swimming</li>
+          <li>Swimming</li>
+          <li>humans</li>
+        </ul>  
+        <figure>
+          <img src="https://images.pexels.com/photos/532310/pexels-photo-532310.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A photo of a dog with a human">
+          <figcaption>dogs <em>love</em> humans</figcaption>
+        </figure>
+        <h3>Things dogs hate:</h3>
+        <ul>
+          <li>being ignored</li>
+          <li>Having Their Nails Trimmed</li>
+          <li>cats</li>
+          <li>dressing up</li>
+        </ul>
+        <figure>
+          <img src="https://images.pexels.com/photos/3198032/pexels-photo-3198032.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A very cute dog">
+          <figcaption>Dogs <b>hate</b> dressing up</figcaption>
+        </figure>
+      </section>
+      <section>
+        <h2>Dog Form</h2>
+        <p>Tell me about your dog</p>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your dog an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your dog's personality?</legend>
+            <label><input id="loving" type="checkbox" name="loving-lazy-energetic" value="loving" checked> Loving</label>
+            <label><input id="lazy" type="checkbox" name="loving-lazy-energetic" value="lazy"> Lazy</label>
+            <label><input id="energetic" type="checkbox" name="loving-lazy-energetic" value="energetic"> Energetic</label>
+          </fieldset>
+          <input type="text" name="dogphotourl" placeholder="dog photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Dogs rock! they are the best</p>
+    </footer>
+  </body>
+</html>
